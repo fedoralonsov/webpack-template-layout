@@ -1,6 +1,10 @@
-.main{
-  grid-area: main;
-  background-color: var(--third-color);
-  color: #000000;
-  padding: 15px;
+.main {
+  background-color: var(--main-color);
+  padding: 0.625rem;
+  &__title {
+    text-align: center;
+  }
+  &__text {
+    text-indent: 1rem;
+  }
 }

@@ -1,6 +1,8 @@
-.sidebar{
-  grid-area: sidebar;
-  background-color: var(--second-color);
-  padding: 15px;
-  border-left: 1px solid #fff;
+.sidebar {
+  background-color: var(--main-color);
+  padding: 0.625rem;
+  text-align: center;
+  @include mobfirst(30) {
+    grid-row: span 2;
+  }
 }

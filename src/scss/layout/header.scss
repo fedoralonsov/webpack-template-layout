@@ -1,6 +1,10 @@
-.header{
-  grid-area: header;
-  background-color: var(--second-color);
-  padding: 10px 15px;
-  border-bottom: 1px solid #fff;
+.header {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 0.625rem;
+  background-color: var(--main-color);
+  text-align: center;
+  @include mobfirst(30) {
+    grid-column: span 2;
+  }
 }
